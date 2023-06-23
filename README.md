@@ -17,6 +17,9 @@ Eric von Lieres<sup>1</sup> (ORCID: 0000-0002-0309-8408)<br>
 # Description
 Supplement code to recreate evaluation.
 
+## License
+We note that CADET is distributed under a different license than the one given here, which solely refers to the evaluation scripts.
+
 ## General procedure:
 * Either clone DG branch of CADET [here](https://github.com/modsim/CADET/tree/feature/dg) or use the CADET-DG commit in this repo (to use the exact same version that was used in the paper) and install following the [installation guide](https://cadet.github.io/master/getting_started/installation.html). Note that in the future, after we merged the DG extension into the main branch, this step becomes obsolete and CADET can be installed via conda.
 * Create conda environment using the environment.yml file.
@@ -28,22 +31,6 @@ Supplement code to recreate evaluation.
 - [CADET (DG branch)](https://github.com/modsim/CADET/tree/feature/dg)
 - Anaconda, Python = 3.9
 - Git
-
-### Channels:
-- defaults
-- conda-forge
-
-### Dependencies:
-- python=3.9.5
-- scipy=1.10.0
-- ipython=8.8.0
-- numpy=1.23.5
-- matplotlib=3.6.2
-- pandas=1.5.2
-- h5py=3.6.0
-- pytest=7.2.0
-- colorama 0.4.6
-- cadet
 
 ### Anaconda
 
