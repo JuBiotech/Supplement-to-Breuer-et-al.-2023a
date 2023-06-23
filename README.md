@@ -1,4 +1,6 @@
-# Supplement code -to-Breuer-et-al.-2023a
+[![DOI](https://zenodo.org/badge/613913930.svg)](https://zenodo.org/badge/latestdoi/613913930)
+
+# Supplement code
 
 __Spatial discontinuous Galerkin spectral element method for a family of chromatography models in CADET__
 
