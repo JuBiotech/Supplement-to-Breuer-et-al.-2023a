@@ -13,3 +13,6 @@ dependencies:
   - pytest=7.2.0
   - colorama=0.4.6
   - cadet # Note: To replicate the evaluation exactly, you need to build CADET-DG from source using the commit that is given in this repo.
+  - pip
+  - pip:
+      - cadet-python
