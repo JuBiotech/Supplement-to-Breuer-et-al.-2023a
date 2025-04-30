@@ -23,7 +23,7 @@ Supplement code to recreate evaluation.
 We note that CADET is distributed under a different license than the one given here, which solely refers to the evaluation scripts.
 
 ## General procedure:
-* Either clone DG branch of CADET [here](https://github.com/modsim/CADET/tree/feature/dg) or use the CADET-DG commit in this repo (to use the exact same version that was used in the paper) and install following the [installation guide](https://cadet.github.io/master/getting_started/installation.html). Note that in the future, after we merged the DG extension into the main branch, this step becomes obsolete this step becomes obsolete and the conda installation can be used.
+* Install CADET-Python and CADET-Core following the installation guide in the [CADET documentation]](https://cadet.github.io/master/).
 * Create conda environment using the environment.yml file.
 * Recreate evaluation by executing the code given in eval_CADET_DG.py according to the instructions given therein.
 
