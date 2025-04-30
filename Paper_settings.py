@@ -202,7 +202,7 @@ def GRMlinear1Comp_VerificationSetting(
     # RUN
     if(run_):
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print(model.filename + " simulation completed successfully")
             model.load()
         else:
@@ -353,7 +353,7 @@ def LRMlinear1Comp_VerificationSetting(
     # RUN
     if run_:
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print("method " + str(int(method_)) + "Z" +
                   str(int(nCells)) + " simulation completed successfully")
             model.load()
@@ -522,7 +522,7 @@ def LRMPlinear1Comp_VerificationSetting(
     # RUN
     if(run_):
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print("method " + str(int(method_)) + "Z" +
                   str(int(nCells)) + " simulation completed successfully")
             model.load()
@@ -659,7 +659,7 @@ def LRMlinear1Comp_noBind(
     # RUN
     if(run_):
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print("method " + str(int(method_)) + "Z" +
                   str(int(nCells)) + " simulation completed successfully")
             model.load()
@@ -887,7 +887,7 @@ def LWE_setting(
     # RUN
     if run_sim:
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print(model.filename + " simulation completed successfully")
             model.load()
         else:
@@ -1040,7 +1040,7 @@ def LRM_langmuir_oscillations(
     # RUN
     if(run_):
         data = model.run()
-        if data.returncode == 0:
+        if data.return_code == 0:
             print(model.filename + " simulation completed successfully")
             model.load()
         else:
